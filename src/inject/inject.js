@@ -86,7 +86,7 @@ chrome.extension.sendMessage({}, function (response) {
 											boxTitle.innerHTML='Free Article';
 											linkBox.classList.add('free');
 										} else if(result=='paid'){
-											boxTitle.innerHTML='Paid Article';
+											boxTitle.innerHTML='Paid Article ★';
 											linkBox.classList.add('paid');
 
 										} else if(result=='not medium'){
@@ -108,7 +108,6 @@ chrome.extension.sendMessage({}, function (response) {
 					prevDOM = srcElement;
 				}
 			}, false);
-
 		}
 	}, 10);
 });

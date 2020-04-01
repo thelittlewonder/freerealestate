@@ -3,7 +3,7 @@
  **/
 .selected-element {
     background-clip: #bcd5eb !important;
-    outline: 1px dashed #e9af6e !important;
+    outline: 1px dashed #0CA750 !important;
     cursor: help;
 }
 
@@ -42,7 +42,6 @@
 
 #details>img{
     height: 16px;
-    margin: 0 0 8px 8px;
 }
 
 .free {

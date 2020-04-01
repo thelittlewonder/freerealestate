@@ -2,7 +2,7 @@
   "name": "Is this free real estate?",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
+  "description": "Check if a medium article is a part of metered paywall",
   "homepage_url": "http://extensionizr.com",
   "icons": {
     "16": "icons/icon16.png",
@@ -16,8 +16,7 @@
   },
   "page_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
-    "default_popup": "src/page_action/page_action.html"
+    "default_title": "page action demo"
   },
   "content_scripts": [
     {

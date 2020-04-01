@@ -1,0 +1,14 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+ .selected-element {
+    background-clip: #bcd5eb!important;
+    outline: 1px dashed #e9af6e!important;
+}
+
+#details{
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

@@ -5,23 +5,23 @@
   "description": "Check if a medium article is a part of metered paywall",
   "homepage_url": "http://extensionizr.com",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icons/inactive/icon16.png",
+    "48": "icons/inactive/icon48.png",
+    "128": "icons/inactive/icon128.png"
   },
   "default_locale": "en",
   "background": {
     "page": "src/bg/background.html",
     "persistent": true
   },
-  "page_action": {
-    "default_icon": "icons/icon19.png",
-    "default_title": "page action demo"
-  },
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {},
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*","https://twitter.com/*", "https://web.telegram.org/*"
+        "https://www.google.com/*","https://twitter.com/*", "https://web.telegram.org/*", "https://www.twitter.com/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -29,7 +29,7 @@
     },
     {
       "matches": [
-        "https://www.google.com/*","https://twitter.com/*", "https://web.telegram.org/*"
+        "https://www.google.com/*","https://twitter.com/*", "https://web.telegram.org/*", "https://www.twitter.com/*"
       ],
       "js": [
         "src/inject/inject.js"

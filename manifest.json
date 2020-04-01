@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://www.google.com/*","https://twitter.com/*", "https://web.telegram.org/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -30,7 +30,7 @@
     },
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://www.google.com/*","https://twitter.com/*", "https://web.telegram.org/*"
       ],
       "js": [
         "src/inject/inject.js"

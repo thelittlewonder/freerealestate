@@ -1,14 +1,61 @@
 /**
  * Place your custom CSS styles here.
  **/
- .selected-element {
-    background-clip: #bcd5eb!important;
-    outline: 1px dashed #e9af6e!important;
+.selected-element {
+    background-clip: #bcd5eb !important;
+    outline: 1px dashed #e9af6e !important;
+    cursor: help;
 }
 
-#details{
-    padding: 1em;
+#details {
+    padding: 12px;
+    border-radius: 4px;
+    width: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 999;
+    display: inline;
+}
+
+#details>h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.5px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0 0 8px 8px;
+    display: inline;
+}
+
+#details>p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.75);
+    overflow: hidden;
+    margin: 0;
+}
+
+#details>img{
+    height: 16px;
+    margin: 0 0 8px 8px;
+}
+
+.free {
+    background: #0CA750;
+    box-shadow: 0px 4px 8px rgba(5, 71, 34, 0.2);
+}
+
+.paid {
+    background: #C63434;
+    box-shadow: 0px 4px 8px rgba(77, 20, 20, 0.2);
+}
+
+.invalid {
+    background: #002838;
+    box-shadow: 0px 4px 8px rgba(0, 40, 56, 0.2);
 }

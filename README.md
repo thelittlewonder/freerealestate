@@ -10,7 +10,7 @@ Tested on:
 <img src="https://github.com/thelittlewonder/freerealestate/blob/master/docs/demo.gif?raw=true">
 
 # Manual Install
-- Click on Clone or download button to download the zip file.
+- Click on `Clone or download` button to download the zip file.
 - Unzip the extension .zip file.
 - Navigate to chrome://extensions
 - Toggle developer mode in the top right of the page

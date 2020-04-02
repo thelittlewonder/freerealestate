@@ -17,5 +17,8 @@ Tested on:
 - Click "Load unpacked extension"
 - Select the folder that was created from unzipping the file.
 
+# Under the Hood
+There's a simple fetch on the URL and then a check against some standard keywords. Here's the code if you're interested: https://repl.it/@AbhishekSharm22/medium
+
 -----
 <img src="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Ffacebook%2F000%2F021%2F311%2Ffree.jpg" height=200px>

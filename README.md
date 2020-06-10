@@ -1,4 +1,4 @@
-# Overview
+## Overview
 Chrome extension to check if a medium article is under metered paywall or free to read.
 
 Tested on:
@@ -6,10 +6,10 @@ Tested on:
 - Twitter feed
 - Telegram groups
 
-# Demo
+## Demo
 <img src="https://github.com/thelittlewonder/freerealestate/blob/master/docs/demo.gif?raw=true">
 
-# Manual Install
+## Manual Install
 - Click on `Clone or download` button to download the zip file.
 - Unzip the extension .zip file.
 - Navigate to chrome://extensions
@@ -17,7 +17,7 @@ Tested on:
 - Click "Load unpacked extension"
 - Select the folder that was created from unzipping the file.
 
-# Under the Hood
+## Under the Hood
 There's a simple fetch on the URL and then a check against some standard keywords. Here's the code if you're interested: https://repl.it/@AbhishekSharm22/medium
 
 -----
